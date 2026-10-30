@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" role="img" aria-labelledby="title desc">
+  <title id="title">GitOps deployment flow</title>
+  <desc id="desc">A commit runs GitHub Actions, publishes a Docker image, and Argo CD synchronizes a Helm release to Kubernetes.</desc>
+  <rect width="1200" height="170" rx="14" fill="#F7F5F0" stroke="#DED9CE"/>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <g fill="#5E6B61" font-size="12" font-weight="700"><text x="120" y="42">SOURCE</text><text x="360" y="42">CI</text><text x="600" y="42">IMAGE</text><text x="840" y="42">SYNC</text><text x="1080" y="42">RUNTIME</text></g>
+    <g fill="#343936" font-size="15"><text x="120" y="92">GitHub</text><text x="360" y="92">Actions</text><text x="600" y="92">Docker Hub</text><text x="840" y="92">Argo CD</text><text x="1080" y="92">Kubernetes</text></g>
+    <g fill="#777770" font-size="11"><text x="120" y="119">commit</text><text x="360" y="119">build + test</text><text x="600" y="119">versioned image</text><text x="840" y="119">Helm sync</text><text x="1080" y="119">Ingress route</text></g>
+  </g>
+  <g stroke="#9A7B62" stroke-width="2" fill="none"><path d="M194 86h100m132 0h100m140 0h100m132 0h100"/><path d="m285 79 9 7-9 7m220-14 9 7-9 7m220-14 9 7-9 7m220-14 9 7-9 7"/></g>
+</svg>

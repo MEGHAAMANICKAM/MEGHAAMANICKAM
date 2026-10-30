@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" role="img" aria-labelledby="title desc">
+  <title id="title">AWS cost optimisation workflow</title>
+  <desc id="desc">EventBridge schedules Lambda, which checks EC2 metrics and sends an SNS notification.</desc>
+  <rect width="1200" height="170" rx="14" fill="#F7F5F0" stroke="#DED9CE"/>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <g fill="#5E6B61" font-size="12" font-weight="700">
+      <text x="130" y="42">SCHEDULE</text><text x="370" y="42">AUTOMATION</text><text x="610" y="42">SIGNAL</text><text x="850" y="42">FILTER</text><text x="1070" y="42">NOTIFY</text>
+    </g>
+    <g fill="#343936" font-size="15">
+      <text x="130" y="92">EventBridge</text><text x="370" y="92">Lambda</text><text x="610" y="92">CloudWatch</text><text x="850" y="92">EC2 tags</text><text x="1070" y="92">SNS</text>
+    </g>
+    <g fill="#777770" font-size="11">
+      <text x="130" y="119">scheduled run</text><text x="370" y="119">Python check</text><text x="610" y="119">CPU metrics</text><text x="850" y="119">idle instances</text><text x="1070" y="119">actionable alert</text>
+    </g>
+  </g>
+  <g stroke="#9A7B62" stroke-width="2" fill="none"><path d="M214 86h100m120 0h100m120 0h100m120 0h100"/><path d="m306 79 9 7-9 7m220-14 9 7-9 7m220-14 9 7-9 7m220-14 9 7-9 7"/></g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Meghaa M. — Cloud and DevOps Engineer</title>
+  <desc id="desc">An ivory banner with a graphite grid and sage cloud infrastructure accent.</desc>
+  <rect width="1200" height="330" rx="18" fill="#F7F5F0"/>
+  <path d="M0 276H1200" stroke="#DED9CE"/>
+  <path d="M0 34H1200M0 84H1200M0 134H1200M0 184H1200M0 234H1200" stroke="#EAE6DE"/>
+  <path d="M62 0V330M112 0V330M162 0V330M212 0V330M262 0V330M312 0V330M362 0V330M412 0V330M462 0V330M512 0V330M562 0V330M612 0V330M662 0V330M712 0V330M762 0V330M812 0V330M862 0V330M912 0V330M962 0V330M1012 0V330M1062 0V330M1112 0V330" stroke="#EAE6DE"/>
+  <path d="M0 276H1200" stroke="#9A7B62" stroke-width="2"/>
+  <circle cx="92" cy="72" r="7" fill="#9A7B62"/>
+  <circle cx="112" cy="72" r="7" fill="#5E6B61"/>
+  <circle cx="132" cy="72" r="7" fill="#D5BFA6"/>
+  <text x="88" y="146" fill="#343936" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="8">MEGHAA M.</text>
+  <text x="92" y="184" fill="#5E6B61" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="5">CLOUD &amp; DEVOPS ENGINEER</text>
+  <text x="92" y="230" fill="#777770" font-family="Arial, Helvetica, sans-serif" font-size="18">Building reliable cloud infrastructure.</text>
+  <text x="92" y="256" fill="#777770" font-family="Arial, Helvetica, sans-serif" font-size="18">Automating deployments. Simplifying operations.</text>
+  <g transform="translate(890 82)" fill="none" stroke="#5E6B61" stroke-width="3">
+    <path d="M0 110h154M24 110V72M76 110V40M128 110V58"/>
+    <path d="M24 72l52-32 52 18 26-28" stroke="#9A7B62"/>
+    <circle cx="24" cy="72" r="6" fill="#F7F5F0"/>
+    <circle cx="76" cy="40" r="6" fill="#F7F5F0"/>
+    <circle cx="128" cy="58" r="6" fill="#F7F5F0"/>
+    <circle cx="154" cy="30" r="6" fill="#F7F5F0"/>
+  </g>
+  <text x="92" y="306" fill="#9A7B62" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="3">AWS · TERRAFORM · CI/CD · KUBERNETES</text>
+</svg>
